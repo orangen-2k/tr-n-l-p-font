@@ -8,7 +8,7 @@ import { HospitalListComponent } from './hospital-list/hospital-list.component';
 import { HospitalDetailComponent } from './hospital-detail/hospital-detail.component';
 import { HospitalFormComponent } from './hospital-form/hospital-form.component';
 import { ConverGenderPipe } from './conver-gender.pipe';
-import { ConverGenderpipetsPipe } from './conver-genderpipets.pipe';
+import { ConverGenderpipetspipePipe } from './conver-genderpipetspipe.pipe';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,
@@ -18,7 +18,7 @@ import { ConverGenderpipetsPipe } from './conver-genderpipets.pipe';
       {path: 'add-hospital', component: HospitalFormComponent},
       {path: 'edit-hospital/:hospitalId', component: HospitalFormComponent}
     ]) ],
-  declarations: [ AppComponent, HospitalListComponent, HospitalDetailComponent, HospitalFormComponent, ConverGenderpipetsPipe ],
+  declarations: [ AppComponent, HospitalListComponent, HospitalDetailComponent, HospitalFormComponent, ConverGenderpipetspipePipe ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
