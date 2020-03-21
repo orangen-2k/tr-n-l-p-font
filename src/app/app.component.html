@@ -1,1 +1,12 @@
-<app-hospital-list></app-hospital-list>
+<ul>
+  <li>
+    <a title="Horepape" [routerLink]="'/'"> Trang chủ </a>
+  </li>
+  <li>
+    <a title="Trang chi tiết" routerLink="hospital-detail"> Chi tiết </a>
+  </li>
+  <li>
+    <a title="Trang biểu mẫu" routerLink="add-hospital"> From(tạo mới/cập nhập) </a>
+  </li>
+</ul>
+<router-outlet></router-outlet>
